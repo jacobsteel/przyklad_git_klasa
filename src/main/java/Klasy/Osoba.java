@@ -1,12 +1,17 @@
 package Klasy;
 
 public class Osoba {
-    public String imie;
-    public String nazwisko;
+    private String imie;
+    private String nazwisko;
 
     public Osoba(String imie, String nazwisko) {
         this.imie = imie;
         this.nazwisko = nazwisko;
     }
 
+    public String getInfo() { return "Imie: " + this.imie + " Nazwisko: " + this.nazwisko; }
+
+
 }
+
+
