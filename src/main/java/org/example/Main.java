@@ -12,5 +12,10 @@ public class Main {
         Osoba osoba2 = new Osoba("Amelia", "Nowak");
         System.out.println(osoba2.getInfo());
         System.out.println("Hello");
+        System.out.println("Hello");
+        System.out.println("Hello");
+        System.out.println("Hello");
+        System.out.println("Hello");
+
     }
 }
